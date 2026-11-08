@@ -1,0 +1,72 @@
+Screen {
+	layout: vertical;
+}
+
+#title-bar {
+	height: 2;
+	padding: 0 1;
+	content-align: left middle;
+}
+
+#filters-row {
+	height: 1;
+	padding: 0 1;
+	margin-bottom: 1;
+}
+
+#filters-row .filter-label {
+	width: auto;
+	height: 1;
+	content-align: left middle;
+	margin-right: 1;
+}
+
+#filters-row Input {
+	width: 1fr;
+	height: 1;
+	min-height: 1;
+	border: none;
+	padding: 0 1;
+	background: $surface;
+	margin-right: 1;
+}
+
+#match-count {
+	width: auto;
+	height: 1;
+	content-align: left middle;
+	color: $text-muted;
+	margin-right: 1;
+}
+
+#filters-row Button {
+	height: 1;
+	min-height: 1;
+	min-width: 3;
+	width: auto;
+	border: none;
+	padding: 0 1;
+	margin-left: 1;
+	background: $panel;
+}
+
+#main-area {
+	height: 1fr;
+	layout: horizontal;
+}
+
+#views {
+	width: 1fr;
+	height: 1fr;
+}
+
+#file-tree,
+#file-table {
+	height: 1fr;
+}
+
+#status {
+	height: 2;
+	padding: 0 1;
+	content-align: left middle;
+}

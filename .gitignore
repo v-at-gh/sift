@@ -218,3 +218,17 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# SIFT artifacts (dumps, restored trees, local config)
+*.sift.txt
+*.sift.txt.*
+!.sift.txt.example
+*.sift.dir/
+.sift.toml
+.sift.toml.bak
+
+# Editors / OS
+.DS_Store
+.idea/
+.vscode/
+*.swp
